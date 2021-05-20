@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {  
+  display: flex;
+  flex-flow: column;
+}
+
+.imagesContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.poemContainer {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
