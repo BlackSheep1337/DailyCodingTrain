@@ -52,3 +52,28 @@ function firstNonRepeat(str) {
 }
 
 console.log(firstNonRepeat('aaabcddbk'))
+
+
+function abbrevName(name){
+  const s = name.split(' ');
+  return `${s[0].charAt(0)}.${s[1].charAt(0)}`;
+}
+
+console.log(abbrevName("Sam Harris"), 'TobeIqual', "S.H");
+
+const resumed = (str) =>
+
+console.log(resumed("Sam Harris"), 'TobeIqual', "S.H");
+
+var arr = ['a', 'b', 'c', 'd', 'e'];
+
+function first(arr, n) {
+  return arr.slice(0, n)
+}
+
+
+console.log(first(arr, 5),'toBe', ['a'])
+
+const obj = {a: 1, b: 2, c: 3};
+
+console.log(JSON.stringify(obj));
