@@ -53,7 +53,16 @@ const comments = [
 
 // console.log(lengestWord("The quick white fox jumped around the massive dog"));
 
-const arr =  'Ezewxyxqypfvwejduwsnag'
-const d = 'd';
 
-console.log(arr.split('').some(x => x.charCodeAt(0) === d.charCodeAt(0)));
+
+const arr = [...'zbk']
+
+function lastSuvivor(letter, coords) {
+  let arr = [];
+  for (let i = 0; i < coords.length; i += 1) {
+    arr.push([coords[i]])
+  }
+  console.log(arr);
+}
+
+lastSuvivor(arr, [2, 1])
